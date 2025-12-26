@@ -78,7 +78,7 @@ export const CountryFlag = memo(({
   if (FlagComponent) {
     return (
       <div className={`${className} rounded overflow-hidden shadow-md border border-white/20 shrink-0`}>
-        <FlagComponent className="w-full h-full object-cover" title={countryCode} />
+        <FlagComponent className="w-full h-full object-cover" />
       </div>
     );
   }
